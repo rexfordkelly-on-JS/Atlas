@@ -1,0 +1,17 @@
+[
+
+	{
+		"app_name": "Genaric API",
+		"app_description": "Genaric API handling for our site.",
+		"base_url": "/api", 
+		"app_dir": "/api", 
+		"entry": "/app.js"
+	},
+	{
+		"app_name": "Media File Alias files",
+		"app_description": "Use media alias files on your site.",
+		"base_url": "*/media/*", 
+		"app_dir": "/media-aliases", 
+		"entry": "/app.js"
+	}
+]
