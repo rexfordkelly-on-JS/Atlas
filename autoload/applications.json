@@ -1,10 +1,16 @@
 [
-
 	{
 		"app_name": "Genaric API",
 		"app_description": "Genaric API handling for our site.",
-		"base_url": "/api", 
-		"app_dir": "/api", 
+		"base_url": "/sample-api", 
+		"app_dir": "/sample-api", 
+		"entry": "/app.js"
+	},
+	{
+		"app_name": "Sample Isomorphic",
+		"app_description": "a Sample of an Isomorphic application, built with react and redux.",
+		"base_url": "/sample-iso", 
+		"app_dir": "/sample-iso", 
 		"entry": "/app.js"
 	},
 	{
