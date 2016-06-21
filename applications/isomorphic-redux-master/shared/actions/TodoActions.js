@@ -7,7 +7,7 @@ export function getTodos() {
     if(process.env.NODE_ENV){
       return {
         type: 'GET_TODOS',
-        promise: Promise.resolve({ "data": JSON.parse('[ "fasd","daf","hi","ksjdfalkj","","gazza"]')})
+        promise: Promise.resolve({ "data": JSON.parse('[ "fasd","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza","daf","hi","ksjdfalkj","","gazza"]')})
       }
     } else {
       return {
