@@ -1,45 +1,19 @@
-var express = require('express');
-var router = express.Router();
+module.exports = function(app){
 
-// Basic Route Demos
-// -----------------
+	// Basic Route Demos
+	app.get('/', function(req, res, next) {
+	  res.json({
+	    foo: "bar",
+	    baz: "quux"
+	  });
+	});
 
-router.get('/', function(req, res, next) {
-  res.json({
-    foo: "bar",
-    baz: "quux"
-  });
-});
+	app.get('/test', function(req, res, next) {
+	  res.send('Welcome to the API');
+	});
 
-router.get('/test', function(req, res, next) {
-  res.send('Welcome to the API');
-});
-
-router.get("/err", function(req, res, next){
-  next(new Error("Some Error"));
-});
-
-// API Specific 404 / Error Handlers
-// ---------------------------------
-
-// API not found
-router.use(function(req, res, next){
-  res.status(404);
-  res.send({"err": "Resource Not Found", "status": 404});
-});
-
-// erorrs handler
-router.use(function(err, req, res, next){
-  var status = err.status || 500;
-  res.status(status);
-  res.json({
-    app: "api",
-    status: status,
-    error: err.message
-  });
-});
-
-// Exports
-// -------
-
-module.exports = router;
+	app.get("/err", function(req, res, next){
+	  next(new Error("Some Error"));
+	});
+	
+}

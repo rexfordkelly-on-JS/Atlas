@@ -1,0 +1,19 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "Atlas provides an organized structure to develop your applications independently  from one another.",
+  "main": "atlas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexfordkelly-on-JS/Atlas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rexfordkelly-on-JS/Atlas/issues"
+  },
+  "homepage": "https://github.com/rexfordkelly-on-JS/Atlas#readme"
+}

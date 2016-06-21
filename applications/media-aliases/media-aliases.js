@@ -4,7 +4,7 @@
 	Media Aliases provide an efficient and flexible means
 	to organize and categorize your media files using json files.
 
-	You can create any number of medai alias files, each one will be 
+	You can create any number of media alias files, each one will be 
 	linked, via it's properties, to it's source file. While you might end
 	up with any number of aliases which link back to the same soure files,
 	there should never be duplicate	files.

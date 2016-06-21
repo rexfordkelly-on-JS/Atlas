@@ -7,11 +7,11 @@
 		"entry": "/app.js"
 	},
 	{
-		"app_name": "Sample Isomorphic",
-		"app_description": "a Sample of an Isomorphic application, built with react and redux.",
-		"base_url": "/sample-iso", 
-		"app_dir": "/sample-iso", 
-		"entry": "/app.js"
+		"app_name": "isomorphic-redux",
+		"app_description": "An example of an isomorphic redux application running in Atlas",
+		"base_url": "/iso", 
+		"app_dir": "/isomorphic-redux-sample", 
+		"entry": "/index.js"
 	},
 	{
 		"app_name": "Media File Alias files",
