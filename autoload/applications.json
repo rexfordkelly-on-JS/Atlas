@@ -3,7 +3,7 @@
 		"app_name": "Coloring Pages API",
 		"app_description": "Coloring Pages Application API",
 		"base_url": "/api/", 
-		"app_dir": "/api", 
+		"app_dir": "/kcp-api", 
 		"entry": "/app.js"
 	},
 	{
