@@ -1,0 +1,23 @@
+[
+	{
+		"app_name": "Coloring Pages API",
+		"app_description": "Coloring Pages Application API",
+		"base_url": "/api/", 
+		"app_dir": "/api", 
+		"entry": "/app.js"
+	},
+	{
+		"app_name": "isomorphic-redux",
+		"app_description": "An example of an isomorphic redux application running in Atlas",
+		"base_url": "/iso", 
+		"app_dir": "/isomorphic-redux-master", 
+		"entry": "/app.js"
+	},
+	{
+		"app_name": "Media File Alias files",
+		"app_description": "Use media alias files on your site.",
+		"base_url": "*/media", 
+		"app_dir": "/media-aliases", 
+		"entry": "/app.js"
+	}
+]
